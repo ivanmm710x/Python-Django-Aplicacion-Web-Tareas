@@ -1,4 +1,4 @@
-# 📝 Aplicación Web de Tareas Pendientes (Django Todo-App)
+# 📝 Aplicación Web de Tareas Pendientes (Python - Django)
 
 Una aplicación web completa y funcional desarrollada con **Python y Django** para la gestión eficiente de tareas personales. Este proyecto representa la culminación del aprendizaje enfocado en el desarrollo Backend puro, implementando una arquitectura sólida, seguridad básica y operaciones de base de datos.
 
