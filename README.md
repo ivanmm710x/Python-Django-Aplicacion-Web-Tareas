@@ -34,3 +34,24 @@ Si deseas clonar y probar este proyecto en tu propia máquina, sigue estos pasos
    ```bash
    git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
    cd nombre-del-repo
+   
+2. **Crea y activa un entorno virtual limpio:**
+```bash
+   python -m venv entorno_prueba
+  # En Windows:
+  .\entorno_prueba\Scripts\activate
+```
+3. **Instala Django:**
+```bash
+   pip install django
+```
+4. **Aplica las migraciones (Para crear tu propia base de datos local):**
+```bash
+   cd src\proyecto
+   python manage.py migrate
+```
+5. **Inicia el servidor de desarrollo:**
+```bash
+   python manage.py runserver
+   Y visita en tu navegador la dirección: http://127.0.0.1:8000/
+```
